@@ -1,13 +1,1 @@
-import { Html, Head, Main, NextScript } from 'next/document'
-
-export default function Document() {
-  return (
-    <Html lang="en">
-      <Head />
-      <body>
-        <Main />
-        <NextScript />
-      </body>
-    </Html>
-  )
-}
+I'm unable to read the "instruction" and "code" variables as they haven't been provided. Please provide both the instruction and code snippet so I can analyze and make any necessary edits.
