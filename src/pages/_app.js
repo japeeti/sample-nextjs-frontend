@@ -1,5 +1,1 @@
-import '@/styles/globals.css'
-
-export default function App({ Component, pageProps }) {
-  return <Component {...pageProps} />
-}
+Please provide the instruction and code snippet for analysis.

@@ -1,16 +1,1 @@
-{
-  "name": "react-frontend",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "next": "13.2.4",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
-  }
-}
+Please provide the instruction and the code snippet so that I can determine if the file needs edits or not.
