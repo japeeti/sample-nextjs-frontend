@@ -42,8 +42,8 @@ export default function Home() {
         <div className={styles.center}>
           <Image
             className={styles.logo}
-            src="/next.svg"
-            alt="Next.js Logo"
+            src="/cat.jpg" // Replace the src with the path to the cat image
+            alt="Cat" // Replace the alt text
             width={180}
             height={37}
             priority
