@@ -1,13 +1,1 @@
-import { Html, Head, Main, NextScript } from 'next/document'
-
-export default function Document() {
-  return (
-    <Html lang="en">
-      <Head />
-      <body>
-        <Main />
-        <NextScript />
-      </body>
-    </Html>
-  )
-}
+There are no more edits needed as the given instruction was already implemented in the previous edits for the index.js file.
