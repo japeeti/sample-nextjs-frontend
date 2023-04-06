@@ -1,4 +1,4 @@
-import Head from 'next/head'
+ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
@@ -14,6 +14,13 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <nav className={styles.navbar}>
+        <a href="/" className={styles.navItem}>Home</a>
+        <a href="https://nextjs.org/docs" target="_blank" rel="noopener noreferrer" className={styles.navItem}>Docs</a>
+        <a href="https://nextjs.org/learn" target="_blank" rel="noopener noreferrer" className={styles.navItem}>Learn</a>
+        <a href="https://vercel.com/templates?framework=next.js" target="_blank" rel="noopener noreferrer" className={styles.navItem}>Templates</a>
+        <a href="https://vercel.com/new" target="_blank" rel="noopener noreferrer" className={styles.navItem}>Deploy</a>
+      </nav>
       <main className={styles.main}>
         <div className={styles.description}>
           <p>

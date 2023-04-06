@@ -1,3 +1,18 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  font-family: var(--font-mono);
+  gap: 1.5rem;
+}
+
+.navItem {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
 .main {
   display: flex;
   flex-direction: column;
