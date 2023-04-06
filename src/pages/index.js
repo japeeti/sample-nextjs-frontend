@@ -1,4 +1,4 @@
-import Head from 'next/head'
+ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
@@ -14,6 +14,16 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <header className={styles.navBar}>
+        <nav>
+          <ul className={styles.navList}>
+            <li className={styles.navItem}><a href="#">Home</a></li>
+            <li className={styles.navItem}><a href="#">Page 1</a></li>
+            <li className={styles.navItem}><a href="#">Page 2</a></li>
+            <li className={styles.navItem}><a href="#">Page 3</a></li>
+          </ul>
+        </nav>
+      </header>
       <main className={styles.main}>
         <div className={styles.description}>
           <p>
