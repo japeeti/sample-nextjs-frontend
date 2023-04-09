@@ -14,6 +14,22 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <nav className={styles.nav}>
+        <ul className={styles.navList}>
+          <li>
+            <a href="/docs">Docs</a>
+          </li>
+          <li>
+            <a href="/learn">Learn</a>
+          </li>
+          <li>
+            <a href="/templates">Templates</a>
+          </li>
+          <li>
+            <a href="/deploy">Deploy</a>
+          </li>
+        </ul>
+      </nav>
       <main className={styles.main}>
         <div className={styles.description}>
           <p>
